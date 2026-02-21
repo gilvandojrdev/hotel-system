@@ -27,4 +27,9 @@ public class Hotel {
         this.name = email;
     }
 
+    @Override
+    public String toString(){
+        return name + ", " + email;
+    }
+
 }
